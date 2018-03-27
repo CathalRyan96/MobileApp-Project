@@ -8,6 +8,7 @@
     mc:Ignorable="d">
 
     <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <TextBlock x:Name="textBlock" HorizontalAlignment="Left" Margin="575,373,0,0" Text="GAA Score Tracker" TextWrapping="Wrap" VerticalAlignment="Top" Height="118" Width="239" SelectionChanged="textBlock_SelectionChanged"/>
 
     </Grid>
 </Page>
