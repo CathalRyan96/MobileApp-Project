@@ -211,3 +211,8 @@ C:\Users\catha\source\repos\MobileApp\MobileApp\obj\x86\Debug\qualifiers.txt
 C:\Users\catha\source\repos\MobileApp\MobileApp\obj\x86\Debug\qualifiers.txt.intermediate
 C:\Users\catha\source\repos\MobileApp\MobileApp\obj\x86\Debug\MultipleQualifiersPerDimensionFound.txt
 C:\Users\catha\source\repos\MobileApp\MobileApp\obj\x86\Debug\ProjectArchitectures.txt
+C:\Users\catha\source\repos\MobileApp\MobileApp\bin\x86\Debug\BlankPage1.xbf
+C:\Users\catha\source\repos\MobileApp\MobileApp\obj\x86\Debug\BlankPage1.g.i.cs
+C:\Users\catha\source\repos\MobileApp\MobileApp\obj\x86\Debug\BlankPage1.g.cs
+C:\Users\catha\source\repos\MobileApp\MobileApp\obj\x86\Debug\BlankPage1.xaml
+C:\Users\catha\source\repos\MobileApp\MobileApp\obj\x86\Debug\BlankPage1.xbf
