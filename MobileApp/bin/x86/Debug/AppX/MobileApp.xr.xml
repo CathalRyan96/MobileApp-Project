@@ -39,6 +39,7 @@
       <RootEvent Name="Click" />
     </RootType>
     <RootType FullName="MobileApp.BlankPage1" />
+    <RootType FullName="MobileApp.BlankPage2" />
     <RootType FullName="MobileApp.MainPage" />
   </Roots.RootTypes>
 </Roots>

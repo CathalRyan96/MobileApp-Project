@@ -16,7 +16,9 @@
         
         <TextBox x:Name="textBox1" HorizontalAlignment="Left" Margin="867,359,0,0" Text="TextBox" VerticalAlignment="Top" RenderTransformOrigin="0.514,0"/>
         
-        <Button x:Name="button" Content="Continue" HorizontalAlignment="Left" Margin="556,477,0,0" VerticalAlignment="Top"/>
+        <Button x:Name="button" Content="Continue" HorizontalAlignment="Left" Margin="556,477,0,0" VerticalAlignment="Top" Click="button_Click"/>
+        <TextBlock x:Name="textBlock2" HorizontalAlignment="Left" Margin="284,422,0,0" Text="TextBlock" TextWrapping="Wrap" VerticalAlignment="Top"/>
+        <TextBlock x:Name="textBlock3" HorizontalAlignment="Left" Margin="842,422,0,0" Text="TextBlock" TextWrapping="Wrap" VerticalAlignment="Top"/>
 
     </Grid>
 </Page>
