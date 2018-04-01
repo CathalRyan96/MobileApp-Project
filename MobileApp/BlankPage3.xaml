@@ -10,7 +10,21 @@
     <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
         <TextBox x:Name="textBox" HorizontalAlignment="Left" Margin="257,244,0,0" Text="Enter Name of Team 1..." VerticalAlignment="Top"/>
 
-        <TextBox x:Name="textBox1" HorizontalAlignment="Left" Margin="257,244,0,0" Text="Enter Name of Team 1..." VerticalAlignment="Top"/>
+        <TextBox x:Name="textBox1" HorizontalAlignment="Left" Margin="806,246,0,0" Text="Enter Name of Team 2..." VerticalAlignment="Top"/>
+
+        <TextBlock x:Name="textBlock" HorizontalAlignment="Left" Margin="126,368,0,0" Text="Goals:" TextWrapping="Wrap" VerticalAlignment="Top" RenderTransformOrigin="0.169,-2.4"/>
+
+        <TextBlock x:Name="textBlock1" HorizontalAlignment="Left" Margin="362,368,0,0" Text="Points:" TextWrapping="Wrap" VerticalAlignment="Top"/>
+
+        <TextBlock x:Name="textBlock2" HorizontalAlignment="Left" Margin="779,371,0,0" Text="Goals:" TextWrapping="Wrap" VerticalAlignment="Top"/>
+
+        <TextBlock x:Name="textBlock3" HorizontalAlignment="Left" Margin="1016,369,0,0" Text="Points" TextWrapping="Wrap" VerticalAlignment="Top" Height="25" RenderTransformOrigin="0.839,0.78"/>
+        
+        <Button x:Name="button" Content="+1" HorizontalAlignment="Left" Margin="237,308,0,0" VerticalAlignment="Top" Width="36" Click="button_Click"/>
+        
+        <Button x:Name="button1" Content="-1" HorizontalAlignment="Left" Margin="237,423,0,0" VerticalAlignment="Top" Width="31"/>
+        
+        <TextBox x:Name="textBox2" HorizontalAlignment="Left" Margin="221,362,0,0" Text="TextBox" VerticalAlignment="Top"/>
 
 
 

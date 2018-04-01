@@ -34,7 +34,7 @@ namespace MobileApp
 
         private void button_Click(object sender, RoutedEventArgs e)
         {
-            this.Frame.Navigate(typeof(BlankPage1));
+            this.Frame.Navigate(typeof(BlankPage3));
         }
     }
 }
