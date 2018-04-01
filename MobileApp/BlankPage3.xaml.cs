@@ -43,6 +43,11 @@ namespace MobileApp
 
         }
 
-
+        private int c = 0;
+        private void button2_Click(object sender, RoutedEventArgs e)
+        {
+            c++;
+            textBox3.Text = c.ToString();
+        }
     }
 }
