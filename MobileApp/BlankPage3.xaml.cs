@@ -27,7 +27,7 @@ namespace MobileApp
             this.InitializeComponent();
         }
 
-        private int a = 1;
+        private int a = 0;
         private void button_Click(object sender, RoutedEventArgs e)
         {
             a++;
@@ -35,11 +35,11 @@ namespace MobileApp
 
         }
 
-        private int b = -1;
+        private int b = 0;
         private void button1_Click(object sender, RoutedEventArgs e)
         {
-            a--;
-            textBox2.Text = a.ToString();
+            b--;
+            textBox2.Text = b.ToString();
 
         }
 
@@ -48,6 +48,11 @@ namespace MobileApp
         {
             c++;
             textBox3.Text = c.ToString();
+        }
+
+        private void button1_Click_1(object sender, RoutedEventArgs e)
+        {
+
         }
     }
 }

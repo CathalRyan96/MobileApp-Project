@@ -22,12 +22,14 @@
 
         <Button x:Name="button" Content="+1" HorizontalAlignment="Left" Margin="237,308,0,0" VerticalAlignment="Top" Width="36" Click="button_Click"/>
 
-        <Button x:Name="button1" Content="-1" HorizontalAlignment="Left" Margin="237,423,0,0" VerticalAlignment="Top" Width="31"/>
+        <Button x:Name="button1" Content="-1" HorizontalAlignment="Left" Margin="237,423,0,0" VerticalAlignment="Top" Width="31" Click="button1_Click_1"/>
 
         <TextBox x:Name="textBox2" HorizontalAlignment="Left" Margin="221,362,0,0" Text="TextBox" VerticalAlignment="Top"/>
         
         <Button x:Name="button2" Content="+1" HorizontalAlignment="Left" Margin="893,325,0,0" VerticalAlignment="Top" Width="35" Click="button2_Click"/>
+        
         <Button x:Name="button3" Content="-1" HorizontalAlignment="Left" Margin="898,424,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.038,-0.156" Width="36"/>
+        
         <TextBox x:Name="textBox3" HorizontalAlignment="Left" Margin="877,370,0,0" Text="TextBox" VerticalAlignment="Top"/>
 
 
