@@ -25,12 +25,18 @@
         <Button x:Name="button1" Content="-1" HorizontalAlignment="Left" Margin="237,423,0,0" VerticalAlignment="Top" Width="31" Click="button1_Click_1"/>
 
         <TextBox x:Name="textBox2" HorizontalAlignment="Left" Margin="221,362,0,0" Text="TextBox" VerticalAlignment="Top"/>
-        
+
         <Button x:Name="button2" Content="+1" HorizontalAlignment="Left" Margin="893,325,0,0" VerticalAlignment="Top" Width="35" Click="button2_Click"/>
-        
+
         <Button x:Name="button3" Content="-1" HorizontalAlignment="Left" Margin="898,424,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.038,-0.156" Width="36"/>
-        
+
         <TextBox x:Name="textBox3" HorizontalAlignment="Left" Margin="877,370,0,0" Text="TextBox" VerticalAlignment="Top"/>
+        
+        <!--Buttons for points team 1   -->
+        <Button x:Name="button4" Content="+1" HorizontalAlignment="Left" Margin="464,308,0,0" VerticalAlignment="Top" Width="39" RenderTransformOrigin="0.218,0.453" Click="button4_Click"/>
+        <Button x:Name="button5" Content="-1" HorizontalAlignment="Left" Margin="470,425,0,0" VerticalAlignment="Top" Width="35" RenderTransformOrigin="-0.314,0.75"/>
+        
+        <TextBox x:Name="textBox4" HorizontalAlignment="Left" Margin="454,364,0,0" Text="TextBox" VerticalAlignment="Top"/>
 
 
 

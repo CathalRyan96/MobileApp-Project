@@ -35,13 +35,8 @@ namespace MobileApp
 
         }
 
-        private int b = 0;
-        private void button1_Click(object sender, RoutedEventArgs e)
-        {
-            b--;
-            textBox2.Text = b.ToString();
-
-        }
+        private static int b = 0;
+        
 
         private int c = 0;
         private void button2_Click(object sender, RoutedEventArgs e)
@@ -52,6 +47,16 @@ namespace MobileApp
 
         private void button1_Click_1(object sender, RoutedEventArgs e)
         {
+            b= a - 1;
+            textBox2.Text = b.ToString();
+
+        }
+
+        private int d = 0;
+        private void button4_Click(object sender, RoutedEventArgs e)
+        {
+            d++;
+            textBox2.Text = d.ToString();
 
         }
     }
