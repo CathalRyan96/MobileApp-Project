@@ -27,6 +27,7 @@ namespace MobileApp
             this.InitializeComponent();
         }
 
+        //Increase button for goals for team 1
         private int a = 0;
         private void button_Click(object sender, RoutedEventArgs e)
         {
@@ -35,29 +36,34 @@ namespace MobileApp
 
         }
 
+        //The decrease button for goals for team 1
         private static int b = 0;
-        
-
-        private int c = 0;
-        private void button2_Click(object sender, RoutedEventArgs e)
-        {
-            c++;
-            textBox3.Text = c.ToString();
-        }
 
         private void button1_Click_1(object sender, RoutedEventArgs e)
         {
-            b= a - 1;
+            b = a - 1;
             textBox2.Text = b.ToString();
 
         }
 
+  
+       
+        //Increase button for points for team 1
         private int d = 0;
         private void button4_Click(object sender, RoutedEventArgs e)
         {
             d++;
-            textBox2.Text = d.ToString();
+            textBox4.Text = d.ToString();
 
+        }
+
+        private int c = 0;
+        
+
+        private void button5_Click_1(object sender, RoutedEventArgs e)
+        {
+            c = d - 1;
+            textBox4.Text = c.ToString();
         }
     }
 }
