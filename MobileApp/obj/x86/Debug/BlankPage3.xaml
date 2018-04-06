@@ -8,35 +8,42 @@
     mc:Ignorable="d">
 
     <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
-        <TextBox x:ConnectionId='1' x:Name="textBox" HorizontalAlignment="Left" Margin="257,244,0,0" Text="Enter Name of Team 1..." VerticalAlignment="Top"/>
+        <!-- Text boxes for user to enter name of teams-->
+        <TextBox x:ConnectionId='1' x:Name="textBox" HorizontalAlignment="Left" Margin="181,246,0,0" Text="Enter Name of Team 1..." VerticalAlignment="Top"/>
+        <TextBox x:ConnectionId='2' x:Name="textBox1" HorizontalAlignment="Left" Margin="730,239,0,0" Text="Enter Name of Team 2..." VerticalAlignment="Top"/>
 
-        <TextBox x:ConnectionId='2' x:Name="textBox1" HorizontalAlignment="Left" Margin="806,246,0,0" Text="Enter Name of Team 2..." VerticalAlignment="Top"/>
-
+        <!-- Text blocks for goals and points for team 1 -->
         <TextBlock x:ConnectionId='3' x:Name="textBlock" HorizontalAlignment="Left" Margin="126,368,0,0" Text="Goals:" TextWrapping="Wrap" VerticalAlignment="Top" RenderTransformOrigin="0.169,-2.4"/>
+        <TextBlock x:ConnectionId='4' x:Name="textBlock1" HorizontalAlignment="Left" Margin="343,368,0,0" Text="Points:" TextWrapping="Wrap" VerticalAlignment="Top"/>
 
-        <TextBlock x:ConnectionId='4' x:Name="textBlock1" HorizontalAlignment="Left" Margin="362,368,0,0" Text="Points:" TextWrapping="Wrap" VerticalAlignment="Top"/>
+        <!-- Text blocks for goals and points for team 2 -->
+        <TextBlock x:ConnectionId='5' x:Name="textBlock2" HorizontalAlignment="Left" Margin="686,371,0,0" Text="Goals:" TextWrapping="Wrap" VerticalAlignment="Top"/>
+        <TextBlock x:ConnectionId='6' x:Name="textBlock3" HorizontalAlignment="Left" Margin="896,366,0,0" Text="Points:" TextWrapping="Wrap" VerticalAlignment="Top" Height="25" RenderTransformOrigin="0.839,0.78"/>
 
-        <TextBlock x:ConnectionId='5' x:Name="textBlock2" HorizontalAlignment="Left" Margin="779,371,0,0" Text="Goals:" TextWrapping="Wrap" VerticalAlignment="Top"/>
-
-        <TextBlock x:ConnectionId='6' x:Name="textBlock3" HorizontalAlignment="Left" Margin="1016,369,0,0" Text="Points" TextWrapping="Wrap" VerticalAlignment="Top" Height="25" RenderTransformOrigin="0.839,0.78"/>
-
+        <!-- Buttons for team 1 -->
         <Button x:ConnectionId='7' x:Name="button" Content="+1" HorizontalAlignment="Left" Margin="237,308,0,0" VerticalAlignment="Top" Width="36"                     />
-
-        <Button x:ConnectionId='8' x:Name="button1" Content="-1" HorizontalAlignment="Left" Margin="237,423,0,0" VerticalAlignment="Top" Width="31"                        />
+        <Button x:ConnectionId='8' x:Name="button1" Content="-1" HorizontalAlignment="Left" Margin="237,423,0,0" VerticalAlignment="Top" Width="36"                        />
 
         <TextBox x:ConnectionId='9' x:Name="textBox2" HorizontalAlignment="Left" Margin="221,362,0,0" Text="TextBox" VerticalAlignment="Top"/>
 
-        <!--<Button x:Name="button2" Content="+1" HorizontalAlignment="Left" Margin="893,325,0,0" VerticalAlignment="Top" Width="35" Click="button2_Click"/> -->
+        <TextBox x:ConnectionId='10' x:Name="textBox3" HorizontalAlignment="Left" Margin="793,364,0,0" Text="TextBox" VerticalAlignment="Top"/>
 
-        <Button x:ConnectionId='10' x:Name="button3" Content="-1" HorizontalAlignment="Left" Margin="898,424,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.038,-0.156" Width="36"/>
-
-        <TextBox x:ConnectionId='11' x:Name="textBox3" HorizontalAlignment="Left" Margin="877,370,0,0" Text="TextBox" VerticalAlignment="Top"/>
-        
         <!--Buttons for points team 1   -->
-        <Button x:ConnectionId='12' x:Name="button4" Content="+1" HorizontalAlignment="Left" Margin="464,308,0,0" VerticalAlignment="Top" Width="39" RenderTransformOrigin="0.218,0.453"                      />
-        <Button x:ConnectionId='13' x:Name="button5" Content="-1" HorizontalAlignment="Left" Margin="470,425,0,0" VerticalAlignment="Top" Width="35" RenderTransformOrigin="-0.314,0.75"                        />
-        
-        <TextBox x:ConnectionId='14' x:Name="textBox4" HorizontalAlignment="Left" Margin="454,364,0,0" Text="TextBox" VerticalAlignment="Top"/>
+        <Button x:ConnectionId='11' x:Name="button4" Content="+1" HorizontalAlignment="Left" Margin="433,310,0,0" VerticalAlignment="Top" Width="36" RenderTransformOrigin="0.218,0.453"                      />
+        <Button x:ConnectionId='12' x:Name="button5" Content="-1" HorizontalAlignment="Left" Margin="439,421,0,0" VerticalAlignment="Top" Width="36" RenderTransformOrigin="-0.314,0.75"                        />
+
+        <TextBox x:ConnectionId='13' x:Name="textBox4" HorizontalAlignment="Left" Margin="417,364,0,0" Text="TextBox" VerticalAlignment="Top"/>
+
+        <!-- Goal buttons for team 2 -->
+        <Button x:ConnectionId='14' x:Name="button2" Content="+1" HorizontalAlignment="Left" Margin="811,313,0,0" VerticalAlignment="Top" Width="36"                      />
+        <Button x:ConnectionId='15' x:Name="button3" Content="-1" HorizontalAlignment="Left" Margin="808,433,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.038,-0.156" Width="36"                      />
+
+
+        <Button x:ConnectionId='16' x:Name="button6" Content="+1" HorizontalAlignment="Left" Margin="962,308,0,0" VerticalAlignment="Top" Width="36"                      />
+        <Button x:ConnectionId='17' x:Name="button7" Content="-1" HorizontalAlignment="Left" Margin="965,431,0,0" VerticalAlignment="Top" Width="36" RenderTransformOrigin="-0.458,0.406"                      />
+        <TextBox x:ConnectionId='18' x:Name="textBox5" HorizontalAlignment="Left" Margin="962,363,0,0" Text="TextBox" VerticalAlignment="Top"/>
+
+
 
 
 

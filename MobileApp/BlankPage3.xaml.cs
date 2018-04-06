@@ -57,13 +57,43 @@ namespace MobileApp
 
         }
 
-        private int c = 0;
-        
 
+        private int c = 0;
         private void button5_Click_1(object sender, RoutedEventArgs e)
         {
             c = d - 1;
             textBox4.Text = c.ToString();
+        }
+
+        private int f = 0;
+        private void button2_Click(object sender, RoutedEventArgs e)
+        {
+            f++;
+            textBox3.Text = f.ToString();
+
+        }
+
+        private int g = 0;
+        private void button3_Click(object sender, RoutedEventArgs e)
+        {
+            g = f - 1;
+            textBox3.Text = g.ToString();
+        }
+
+        private int h = 0;
+        private void button6_Click(object sender, RoutedEventArgs e)
+        {
+            h++;
+            textBox5.Text = h.ToString();
+
+        }
+
+        private int i = 0;
+        private void button7_Click(object sender, RoutedEventArgs e)
+        {
+            i = h - 1;
+            textBox5.Text = i.ToString();
+
         }
     }
 }
