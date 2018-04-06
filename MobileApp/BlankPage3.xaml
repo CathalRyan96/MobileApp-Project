@@ -44,7 +44,7 @@
         <TextBox x:Name="textBox5" HorizontalAlignment="Left" Margin="1077,371,0,0" Text="TextBox" VerticalAlignment="Top"/>
 
         <!--Buttons for timer   -->
-        <Button x:Name="button8" Content="Start Game" HorizontalAlignment="Left" Margin="545,276,0,0" VerticalAlignment="Top" Width="164" Click="button8_Click"/>
+        <Button x:Name="StartButton" Content="Start Game" HorizontalAlignment="Left" Margin="545,276,0,0" VerticalAlignment="Top" Width="164" Click="StartButton_Click"/>
         <Button x:Name="button9" Content="Stop Game" HorizontalAlignment="Left" Margin="544,457,0,0" VerticalAlignment="Top" Width="164" Click="button9_Click"/>
         <TextBlock x:Name="textBlock4" HorizontalAlignment="Left" Margin="583,381,0,0" Text="TextBlock" TextWrapping="Wrap" VerticalAlignment="Top" Width="88"/>
 

@@ -113,7 +113,7 @@ namespace MobileApp
         }
 
 
-        private void button8_Click(object sender, RoutedEventArgs e)
+        private void StartButton_Click(object sender, RoutedEventArgs e)
         {
             mytimer.Start();
         }
