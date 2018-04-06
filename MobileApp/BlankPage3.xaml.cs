@@ -17,15 +17,31 @@ using Windows.UI.Xaml.Navigation;
 
 namespace MobileApp
 {
-    /// <summary>
-    /// An empty page that can be used on its own or navigated to within a Frame.
-    /// </summary>
+    
+
     public sealed partial class BlankPage3 : Page
     {
+        DispatcherTimer mytimer = new DispatcherTimer();
+
+        int currentcount = 0;
         public BlankPage3()
         {
             this.InitializeComponent();
+
+            mytimer = new DispatcherTimer();
+
+            mytimer.Interval = new TimeSpan(0, 0, 0, 1, 0);
+            mytimer.Tick += new EventHandler<object>(mytime_Tick);
+
+
         }
+
+        private void mytime_Tick(object sender, object e)
+        {
+            textBlock4.Text = currentcount++.ToString();
+        }
+
+
 
         //Increase button for goals for team 1
         private int a = 0;
@@ -94,6 +110,17 @@ namespace MobileApp
             i = h - 1;
             textBox5.Text = i.ToString();
 
+        }
+
+
+        private void button8_Click(object sender, RoutedEventArgs e)
+        {
+            mytimer.Start();
+        }
+
+        private void button9_Click(object sender, RoutedEventArgs e)
+        {
+            ;
         }
     }
 }
