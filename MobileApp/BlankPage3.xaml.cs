@@ -120,7 +120,7 @@ namespace MobileApp
 
         private void button9_Click(object sender, RoutedEventArgs e)
         {
-            ;
+            mytimer.Stop();
         }
     }
 }

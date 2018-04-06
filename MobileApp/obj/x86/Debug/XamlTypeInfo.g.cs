@@ -132,21 +132,19 @@ namespace MobileApp.MobileApp_XamlTypeInfo
 
         private void InitTypeTables()
         {
-            _typeNameTable = new string[6];
+            _typeNameTable = new string[5];
             _typeNameTable[0] = "MobileApp.BlankPage1";
             _typeNameTable[1] = "Windows.UI.Xaml.Controls.Page";
             _typeNameTable[2] = "Windows.UI.Xaml.Controls.UserControl";
-            _typeNameTable[3] = "MobileApp.BlankPage2";
-            _typeNameTable[4] = "MobileApp.BlankPage3";
-            _typeNameTable[5] = "MobileApp.MainPage";
+            _typeNameTable[3] = "MobileApp.BlankPage3";
+            _typeNameTable[4] = "MobileApp.MainPage";
 
-            _typeTable = new global::System.Type[6];
+            _typeTable = new global::System.Type[5];
             _typeTable[0] = typeof(global::MobileApp.BlankPage1);
             _typeTable[1] = typeof(global::Windows.UI.Xaml.Controls.Page);
             _typeTable[2] = typeof(global::Windows.UI.Xaml.Controls.UserControl);
-            _typeTable[3] = typeof(global::MobileApp.BlankPage2);
-            _typeTable[4] = typeof(global::MobileApp.BlankPage3);
-            _typeTable[5] = typeof(global::MobileApp.MainPage);
+            _typeTable[3] = typeof(global::MobileApp.BlankPage3);
+            _typeTable[4] = typeof(global::MobileApp.MainPage);
         }
 
         private int LookupTypeIndexByName(string typeName)
@@ -182,9 +180,8 @@ namespace MobileApp.MobileApp_XamlTypeInfo
         }
 
         private object Activate_0_BlankPage1() { return new global::MobileApp.BlankPage1(); }
-        private object Activate_3_BlankPage2() { return new global::MobileApp.BlankPage2(); }
-        private object Activate_4_BlankPage3() { return new global::MobileApp.BlankPage3(); }
-        private object Activate_5_MainPage() { return new global::MobileApp.MainPage(); }
+        private object Activate_3_BlankPage3() { return new global::MobileApp.BlankPage3(); }
+        private object Activate_4_MainPage() { return new global::MobileApp.MainPage(); }
 
         private global::Windows.UI.Xaml.Markup.IXamlType CreateXamlType(int typeIndex)
         {
@@ -211,23 +208,16 @@ namespace MobileApp.MobileApp_XamlTypeInfo
                 xamlType = new global::MobileApp.MobileApp_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
 
-            case 3:   //  MobileApp.BlankPage2
+            case 3:   //  MobileApp.BlankPage3
                 userType = new global::MobileApp.MobileApp_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_3_BlankPage2;
+                userType.Activator = Activate_3_BlankPage3;
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 4:   //  MobileApp.BlankPage3
+            case 4:   //  MobileApp.MainPage
                 userType = new global::MobileApp.MobileApp_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_4_BlankPage3;
-                userType.SetIsLocalType();
-                xamlType = userType;
-                break;
-
-            case 5:   //  MobileApp.MainPage
-                userType = new global::MobileApp.MobileApp_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_5_MainPage;
+                userType.Activator = Activate_4_MainPage;
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;

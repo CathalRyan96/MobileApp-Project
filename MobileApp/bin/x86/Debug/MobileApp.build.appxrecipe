@@ -370,6 +370,9 @@
     <AppxPackagedFile Include="C:\Users\catha\.nuget\packages\system.xml.xmlserializer\4.0.11\lib\netcore50\System.Xml.XmlSerializer.dll">
       <PackagePath>System.Xml.XmlSerializer.dll</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\catha\source\repos\MobileApp\MobileApp\images\+1.png">
+      <PackagePath>images\+1.png</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\catha\source\repos\MobileApp\MobileApp\images\gaa.png">
       <PackagePath>images\gaa.png</PackagePath>
     </AppxPackagedFile>
@@ -399,6 +402,9 @@
     <AppxPackagedFile Include="C:\Users\catha\source\repos\MobileApp\MobileApp\Assets\Wide310x150Logo.scale-200.png">
       <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\catha\source\repos\MobileApp\MobileApp\images\background.jpg">
+      <PackagePath>images\background.jpg</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\catha\source\repos\MobileApp\MobileApp\Properties\Default.rd.xml">
       <PackagePath>Properties\Default.rd.xml</PackagePath>

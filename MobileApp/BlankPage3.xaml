@@ -8,6 +8,7 @@
     mc:Ignorable="d">
 
     <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <Image x:Name="Img_Background1" HorizontalAlignment="left" Width="1468" Source="images/background.jpg" RenderTransformOrigin="0.448,0.457" UseLayoutRounding="False" d:LayoutRounding="Auto" Margin="16,-958,0,-754"/>
         <!-- Text boxes for user to enter name of teams-->
         <TextBox x:Name="textBox" HorizontalAlignment="Left" Margin="181,246,0,0" Text="Enter Name of Team 1..." VerticalAlignment="Top"/>
         <TextBox x:Name="textBox1" HorizontalAlignment="Left" Margin="920,244,0,0" Text="Enter Name of Team 2..." VerticalAlignment="Top"/>
@@ -21,7 +22,9 @@
         <TextBlock x:Name="textBlock3" HorizontalAlignment="Left" Margin="1012,378,0,0" Text="Points:" TextWrapping="Wrap" VerticalAlignment="Top" Height="25" RenderTransformOrigin="0.839,0.78"/>
 
         <!-- Buttons for team 1 -->
+
         <Button x:Name="button" Content="+1" HorizontalAlignment="Left" Margin="149,325,0,0" VerticalAlignment="Top" Width="36" Click="button_Click" RenderTransformOrigin="0,0.5"/>
+
         <Button x:Name="button1" Content="-1" HorizontalAlignment="Left" Margin="152,411,0,0" VerticalAlignment="Top" Width="36" Click="button1_Click_1" RenderTransformOrigin="-1.083,0.328"/>
 
         <TextBox x:Name="textBox2" HorizontalAlignment="Left" Margin="136,367,0,0" Text="TextBox" VerticalAlignment="Top"/>

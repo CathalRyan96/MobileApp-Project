@@ -8,7 +8,7 @@
     mc:Ignorable="d">
 
     <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
-            <Image x:Name="Img_Background" HorizontalAlignment="left" Width="1468" Source="images/gaa.png" RenderTransformOrigin="0.448,0.457" UseLayoutRounding="False" d:LayoutRounding="Auto" Margin="16,-958,0,-754"/>
+            <Image x:Name="Img_Background" HorizontalAlignment="left" Width="1468" Source="images/background.jpg" RenderTransformOrigin="0.448,0.457" UseLayoutRounding="False" d:LayoutRounding="Auto" Margin="16,-958,0,-754"/>
         <TextBlock x:Name="textBlock" HorizontalAlignment="Left" Margin="575,373,0,0" Text="GAA Score Tracker" TextWrapping="Wrap" VerticalAlignment="Top" Height="118" Width="239" SelectionChanged="textBlock_SelectionChanged"/>
         <Button x:Name="button" Content="Start" HorizontalAlignment="Left" Margin="605,435,0,0" VerticalAlignment="Top" Click="button_Click"/>
 
