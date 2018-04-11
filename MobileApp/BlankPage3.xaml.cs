@@ -101,8 +101,15 @@ namespace MobileApp
         }
 
         private int f = 0;
-        private void button2_Click(object sender, RoutedEventArgs e)
+        private async void button2_Click(object sender, RoutedEventArgs e)
         {
+            MediaElement mysong = new MediaElement();
+            Windows.Storage.StorageFolder folder = await Windows.ApplicationModel.Package.Current.InstalledLocation.GetFolderAsync("Assets");
+            Windows.Storage.StorageFile file = await folder.GetFileAsync("applause.mp3");
+            var stream = await file.OpenAsync(Windows.Storage.FileAccessMode.Read);
+            mysong.SetSource(stream, file.ContentType);
+            mysong.Play();
+
             f++;
             textBox3.Text = f.ToString();
 
