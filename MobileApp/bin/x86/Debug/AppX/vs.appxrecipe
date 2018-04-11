@@ -31,13 +31,13 @@
     <AppXManifest Include="C:\Users\catha\source\repos\MobileApp\MobileApp\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-04-10T19:29:16.527</Modified>
+      <Modified>2018-04-11T22:39:24.644</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\catha\source\repos\MobileApp\MobileApp\bin\x86\Debug\MobileApp.exe">
       <PackagePath>entrypoint\MobileApp.exe</PackagePath>
-      <Modified>2018-04-10T19:29:15.761</Modified>
+      <Modified>2018-04-11T22:39:24.419</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\catha\.nuget\packages\microsoft.csharp\4.0.1\lib\netcore50\Microsoft.CSharp.dll">
       <PackagePath>Microsoft.CSharp.dll</PackagePath>
@@ -495,6 +495,10 @@
       <PackagePath>System.Xml.XmlSerializer.dll</PackagePath>
       <Modified>2016-06-11T22:15:04.000</Modified>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\catha\source\repos\MobileApp\MobileApp\Assets\applause.mp3">
+      <PackagePath>Assets\applause.mp3</PackagePath>
+      <Modified>2018-04-11T22:02:27.593</Modified>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\catha\source\repos\MobileApp\MobileApp\images\+1.png">
       <PackagePath>images\+1.png</PackagePath>
       <Modified>2018-04-06T13:07:05.569</Modified>
@@ -553,9 +557,13 @@
       <PackagePath>Properties\Default.rd.xml</PackagePath>
       <Modified>2018-03-21T20:06:21.558</Modified>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\catha\source\repos\MobileApp\MobileApp\sounds\applause1.wav">
+      <PackagePath>sounds\applause1.wav</PackagePath>
+      <Modified>2018-04-11T22:05:49.529</Modified>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\catha\source\repos\MobileApp\MobileApp\bin\x86\Debug\MobileApp.xr.xml">
       <PackagePath>MobileApp.xr.xml</PackagePath>
-      <Modified>2018-04-10T19:09:48.016</Modified>
+      <Modified>2018-04-11T21:58:38.035</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.16299.0\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
@@ -564,11 +572,11 @@
     <AppxPackagedFile Include="C:\Users\catha\source\repos\MobileApp\MobileApp\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-04-10T19:29:16.279</Modified>
+      <Modified>2018-04-11T22:06:18.989</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\catha\source\repos\MobileApp\MobileApp\bin\x86\Debug\Core\MobileApp.exe">
       <PackagePath>MobileApp.exe</PackagePath>
-      <Modified>2018-04-10T19:29:16.507</Modified>
+      <Modified>2018-04-11T22:39:24.639</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

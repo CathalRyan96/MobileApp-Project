@@ -12,6 +12,11 @@ using Windows.UI.Xaml.Data;
 using Windows.UI.Xaml.Input;
 using Windows.UI.Xaml.Media;
 using Windows.UI.Xaml.Navigation;
+using Windows.Media.Playback;
+using Windows.Media.Core;
+using Windows.Storage;
+
+
 
 // The Blank Page item template is documented at https://go.microsoft.com/fwlink/?LinkId=234238
 
@@ -21,17 +26,23 @@ namespace MobileApp
 
     public sealed partial class BlankPage3 : Page
     {
+        //Initialising new timer
         DispatcherTimer mytimer = new DispatcherTimer();
-
         int currentcount = 0;
+
+        MediaPlayer player;
+
         public BlankPage3()
         {
             this.InitializeComponent();
+
+            
 
             mytimer = new DispatcherTimer();
 
             mytimer.Interval = new TimeSpan(0, 0, 0, 1, 0);
             mytimer.Tick += new EventHandler<object>(mytime_Tick);
+
 
 
         }
@@ -45,8 +56,16 @@ namespace MobileApp
 
         //Increase button for goals for team 1
         private int a = 0;
-        private void button_Click(object sender, RoutedEventArgs e)
+        private async void button_Click(object sender, RoutedEventArgs e)
         {
+            MediaElement mysong = new MediaElement();
+            Windows.Storage.StorageFolder folder = await Windows.ApplicationModel.Package.Current.InstalledLocation.GetFolderAsync("Assets");
+            Windows.Storage.StorageFile file = await folder.GetFileAsync("applause.mp3");
+            var stream = await file.OpenAsync(Windows.Storage.FileAccessMode.Read);
+            mysong.SetSource(stream, file.ContentType);
+            mysong.Play();
+
+
             a++;
             textBox2.Text = a.ToString();
 

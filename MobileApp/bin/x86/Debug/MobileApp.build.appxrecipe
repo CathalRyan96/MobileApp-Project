@@ -370,6 +370,9 @@
     <AppxPackagedFile Include="C:\Users\catha\.nuget\packages\system.xml.xmlserializer\4.0.11\lib\netcore50\System.Xml.XmlSerializer.dll">
       <PackagePath>System.Xml.XmlSerializer.dll</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\catha\source\repos\MobileApp\MobileApp\Assets\applause.mp3">
+      <PackagePath>Assets\applause.mp3</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\catha\source\repos\MobileApp\MobileApp\images\+1.png">
       <PackagePath>images\+1.png</PackagePath>
     </AppxPackagedFile>
@@ -414,6 +417,9 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\catha\source\repos\MobileApp\MobileApp\Properties\Default.rd.xml">
       <PackagePath>Properties\Default.rd.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\catha\source\repos\MobileApp\MobileApp\sounds\applause1.wav">
+      <PackagePath>sounds\applause1.wav</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\catha\source\repos\MobileApp\MobileApp\bin\x86\Debug\MobileApp.xr.xml">
       <PackagePath>MobileApp.xr.xml</PackagePath>
