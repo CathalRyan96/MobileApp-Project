@@ -8,8 +8,8 @@
     <TargetOsDescription>Windows 10.0</TargetOsDescription>
     <SolutionConfiguration>Debug|x86</SolutionConfiguration>
     <PackageArchitecture>x86</PackageArchitecture>
-    <PackageIdentityName>ddc79cee-85a1-4c2c-bc44-377d38be2a50</PackageIdentityName>
-    <PackageIdentityPublisher>CN=catha</PackageIdentityPublisher>
+    <PackageIdentityName>efd3ce5f-48c9-4775-a3b6-2131e9ea7052</PackageIdentityName>
+    <PackageIdentityPublisher>CN=A2FF33BD-8FE2-4736-B5B2-22DA23FB2513</PackageIdentityPublisher>
     <IntermediateOutputPath>C:\Users\catha\source\repos\MobileApp\MobileApp\obj\x86\Debug\</IntermediateOutputPath>
     <RemoteDeploymentType></RemoteDeploymentType>
     <PackageRegistrationPath></PackageRegistrationPath>

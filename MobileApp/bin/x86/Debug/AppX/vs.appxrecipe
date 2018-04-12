@@ -8,8 +8,8 @@
     <TargetOsDescription>Windows 10.0</TargetOsDescription>
     <SolutionConfiguration>Debug|x86</SolutionConfiguration>
     <PackageArchitecture>x86</PackageArchitecture>
-    <PackageIdentityName>ddc79cee-85a1-4c2c-bc44-377d38be2a50</PackageIdentityName>
-    <PackageIdentityPublisher>CN=catha</PackageIdentityPublisher>
+    <PackageIdentityName>efd3ce5f-48c9-4775-a3b6-2131e9ea7052</PackageIdentityName>
+    <PackageIdentityPublisher>CN=A2FF33BD-8FE2-4736-B5B2-22DA23FB2513</PackageIdentityPublisher>
     <IntermediateOutputPath>C:\Users\catha\source\repos\MobileApp\MobileApp\obj\x86\Debug\</IntermediateOutputPath>
     <RemoteDeploymentType>
     </RemoteDeploymentType>
@@ -19,25 +19,25 @@
     <DeployOptionalPackages>false</DeployOptionalPackages>
     <WindowsSdkPath>C:\Program Files %28x86%29\Windows Kits\10\</WindowsSdkPath>
     <LayoutDir>C:\Users\catha\source\repos\MobileApp\MobileApp\bin\x86\Debug\AppX</LayoutDir>
-    <RegisteredManifestChecksum>9E5DCF72F8F6C90ADCA93060D759F381F11A6AEEFD1AD37A774C711039DAFE3D</RegisteredManifestChecksum>
-    <RegisteredPackageMoniker>ddc79cee-85a1-4c2c-bc44-377d38be2a50_1.0.0.0_x86__8zjjqn58djc9j</RegisteredPackageMoniker>
-    <RegisteredUserModeAppID>ddc79cee-85a1-4c2c-bc44-377d38be2a50_8zjjqn58djc9j!App</RegisteredUserModeAppID>
-    <RegisteredPackageID>ddc79cee-85a1-4c2c-bc44-377d38be2a50</RegisteredPackageID>
-    <RegisteredPackagePublisher>CN=catha</RegisteredPackagePublisher>
-    <RegisteredVersion>1.0.0.0</RegisteredVersion>
+    <RegisteredManifestChecksum>02C8F82A8FC9F9D56B166336D3A6DF18A493F00325441CB312783242763B9273</RegisteredManifestChecksum>
+    <RegisteredPackageMoniker>49917CathalRyan96.GAAScoreCounter_1.1.0.0_x86__eyxkk7he2hzxa</RegisteredPackageMoniker>
+    <RegisteredUserModeAppID>49917CathalRyan96.GAAScoreCounter_eyxkk7he2hzxa!App</RegisteredUserModeAppID>
+    <RegisteredPackageID>49917CathalRyan96.GAAScoreCounter</RegisteredPackageID>
+    <RegisteredPackagePublisher>CN=A2FF33BD-8FE2-4736-B5B2-22DA23FB2513</RegisteredPackagePublisher>
+    <RegisteredVersion>1.1.0.0</RegisteredVersion>
     <JitOptimizationSuppressed>True</JitOptimizationSuppressed>
   </PropertyGroup>
   <ItemGroup>
     <AppXManifest Include="C:\Users\catha\source\repos\MobileApp\MobileApp\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-04-11T22:44:53.992</Modified>
+      <Modified>2018-04-12T19:53:13.929</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\catha\source\repos\MobileApp\MobileApp\bin\x86\Debug\MobileApp.exe">
       <PackagePath>entrypoint\MobileApp.exe</PackagePath>
-      <Modified>2018-04-11T22:44:53.766</Modified>
+      <Modified>2018-04-12T19:53:11.272</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\catha\.nuget\packages\microsoft.csharp\4.0.1\lib\netcore50\Microsoft.CSharp.dll">
       <PackagePath>Microsoft.CSharp.dll</PackagePath>
@@ -509,37 +509,37 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\catha\source\repos\MobileApp\MobileApp\Assets\LockScreenLogo.scale-200.png">
       <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
-      <Modified>2018-01-26T19:28:04.556</Modified>
+      <Modified>2018-04-12T15:04:35.416</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\catha\source\repos\MobileApp\MobileApp\Assets\SplashScreen.scale-200.png">
       <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-01-26T19:28:04.556</Modified>
+      <Modified>2018-04-12T15:05:27.550</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\catha\source\repos\MobileApp\MobileApp\Assets\Square150x150Logo.scale-200.png">
       <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-01-26T19:28:04.556</Modified>
+      <Modified>2018-04-12T15:06:58.238</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\catha\source\repos\MobileApp\MobileApp\Assets\Square44x44Logo.scale-200.png">
       <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-01-26T19:28:04.556</Modified>
+      <Modified>2018-04-12T15:07:22.381</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\catha\source\repos\MobileApp\MobileApp\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-01-26T19:28:04.556</Modified>
+      <Modified>2018-04-12T15:07:55.035</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\catha\source\repos\MobileApp\MobileApp\Assets\StoreLogo.png">
       <PackagePath>Assets\StoreLogo.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-01-26T19:28:04.556</Modified>
+      <Modified>2018-04-12T18:22:01.859</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\catha\source\repos\MobileApp\MobileApp\Assets\Wide310x150Logo.scale-200.png">
       <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-01-26T19:28:04.556</Modified>
+      <Modified>2018-04-12T15:10:08.791</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\catha\source\repos\MobileApp\MobileApp\images\background.jpg">
       <PackagePath>images\background.jpg</PackagePath>
@@ -572,11 +572,11 @@
     <AppxPackagedFile Include="C:\Users\catha\source\repos\MobileApp\MobileApp\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-04-11T22:06:18.989</Modified>
+      <Modified>2018-04-12T19:53:13.011</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\catha\source\repos\MobileApp\MobileApp\bin\x86\Debug\Core\MobileApp.exe">
       <PackagePath>MobileApp.exe</PackagePath>
-      <Modified>2018-04-11T22:44:53.988</Modified>
+      <Modified>2018-04-12T19:53:13.922</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

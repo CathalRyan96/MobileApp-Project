@@ -1,0 +1,2 @@
+MainPackage=C:\Users\catha\source\repos\MobileApp\MobileApp\bin\x64\Release\Upload\MobileApp_1.1.0.0_x64.appx
+SymbolPackage=C:\Users\catha\source\repos\MobileApp\MobileApp\bin\x64\Release\Upload\MobileApp_1.1.0.0\MobileApp_1.1.0.0_x64.appxsym
