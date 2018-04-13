@@ -22,3 +22,9 @@ server for data), camera, multi touch gestures
 • The app must be more than a simple information app. It must have interactivity as part of
 the design.
 
+## Windows Store
+
+This app is currently going through the certification stages of being published to the store.
+It has passed the Windows App Certification Kit Test.
+I have a folder on this repository(certification-progress) containing screenshots of the apps progress on being published to the store.
+I will update this section of the README when the app has been accepted to the store
