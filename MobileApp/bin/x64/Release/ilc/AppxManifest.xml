@@ -7,7 +7,7 @@
 
     For more information on package manifest files, see http://go.microsoft.com/fwlink/?LinkID=241727
   -->
-  <Identity Name="49917CathalRyan96.GAAScoreCounter" Publisher="CN=A2FF33BD-8FE2-4736-B5B2-22DA23FB2513" Version="1.1.0.0" ProcessorArchitecture="x64" />
+  <Identity Name="49917CathalRyan96.GAAScoreCounter" Publisher="CN=A2FF33BD-8FE2-4736-B5B2-22DA23FB2513" Version="1.1.1.0" ProcessorArchitecture="x64" />
   <mp:PhoneIdentity PhoneProductId="efd3ce5f-48c9-4775-a3b6-2131e9ea7052" PhonePublisherId="00000000-0000-0000-0000-000000000000" />
   <Properties>
     <DisplayName>GAA Score Counter</DisplayName>

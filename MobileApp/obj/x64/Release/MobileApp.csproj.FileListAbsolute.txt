@@ -437,3 +437,4 @@ C:\Users\catha\source\repos\MobileApp\MobileApp\obj\x64\Release\ilc\intermediate
 C:\Users\catha\source\repos\MobileApp\MobileApp\obj\x64\Release\ilc\intermediate\TransformedSRWR\System.Runtime.WindowsRuntime.dll
 C:\Users\catha\source\repos\MobileApp\MobileApp\obj\x64\Release\ilc\intermediate\TransformedSRWR\System.Runtime.WindowsRuntime.dll.ILTransformTask.repro
 C:\Users\catha\source\repos\MobileApp\MobileApp\obj\x64\Release\ilc\intermediate\TransformedSRWR\System.Runtime.WindowsRuntime.pdb
+C:\Users\catha\source\repos\MobileApp\MobileApp\obj\x64\Release\MobileApp.csprojResolveAssemblyReference.cache

@@ -1,2 +1,2 @@
-MainPackage=C:\Users\catha\source\repos\MobileApp\MobileApp\bin\x64\Release\MobileApp_1.1.0.0_x64.appx
-SymbolPackage=C:\Users\catha\source\repos\MobileApp\MobileApp\AppPackages\MobileApp_1.1.0.0_Test\MobileApp_1.1.0.0_x64.appxsym
+MainPackage=C:\Users\catha\source\repos\MobileApp\MobileApp\bin\x64\Release\MobileApp_1.1.1.0_x64.appx
+SymbolPackage=C:\Users\catha\source\repos\MobileApp\MobileApp\AppPackages\MobileApp_1.1.1.0_Test\MobileApp_1.1.1.0_x64.appxsym

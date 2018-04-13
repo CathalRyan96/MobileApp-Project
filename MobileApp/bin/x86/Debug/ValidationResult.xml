@@ -1,144 +1,137 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <?xml-stylesheet type='text/xsl' href='C:\ProgramData\Windows App Certification Kit\results.xsl'?>
-<REPORT xml:lang="en-IE" OVERALL_RESULT="FAIL" VERSION="10.0.16299.15" LATEST_VERSION="TRUE" UPDATE_DOWNLOAD_URL="" TOOLSET_ARCHITECTURE="x64" SecureBoot="FALSE" APP_TYPE="UapApp" PUBLISHER_DISPLAY_NAME="CN=A2FF33BD-8FE2-4736-B5B2-22DA23FB2513" APP_NAME="" APP_VERSION="" OSVERSION="10.0.16299.0" OS="Microsoft Windows 10 Home" PER_USER_APPLICATION="" PARTIAL_RUN="FALSE" LCID="6153" VALIDATION_TYPE="UI" ReportGenerationTime="12/04/2018 16:03:36" ID="9733bbfb834d994219986572b1998116">
+<REPORT xml:lang="en-IE" OVERALL_RESULT="PASS" VERSION="10.0.16299.15" LATEST_VERSION="TRUE" UPDATE_DOWNLOAD_URL="" TOOLSET_ARCHITECTURE="x64" SecureBoot="FALSE" APP_TYPE="UapApp" PUBLISHER_DISPLAY_NAME="CN=A2FF33BD-8FE2-4736-B5B2-22DA23FB2513" APP_NAME="" APP_VERSION="" OSVERSION="10.0.16299.0" OS="Microsoft Windows 10 Home" PER_USER_APPLICATION="" PARTIAL_RUN="FALSE" LCID="6153" VALIDATION_TYPE="UI" ReportGenerationTime="13/04/2018 12:23:46" ID="31f35e497a5e73bb003715dcad452137">
   <REQUIREMENTS>
     <REQUIREMENT NUMBER="10" TITLE="Deployment and launch tests" RATIONALE="Application failures such as crashes and hangs are a major disruption to users and cause frustration. Eliminating such failures improves application stability and reliability, and overall, provides users with a better application experience.">
-      <TEST INDEX="50" NAME="Bytecode generation" DESCRIPTION="Byte code generation should be able to complete successfully for packages containing an HTML5 Windows Store app." EXECUTIONTIME="00h:00m:03s.24ms" OPTIONAL="FALSE">
+      <TEST INDEX="50" NAME="Bytecode generation" DESCRIPTION="Byte code generation should be able to complete successfully for packages containing an HTML5 Windows Store app." EXECUTIONTIME="00h:00m:01s.04ms" OPTIONAL="FALSE">
         <MESSAGES />
         <RESULT><![CDATA[PASS]]></RESULT>
       </TEST>
-      <TEST INDEX="79" NAME="Background tasks cancelation handler" DESCRIPTION="App should implement event handler to handle background task cancelation request." EXECUTIONTIME="00h:01m:05s.89ms" OPTIONAL="FALSE">
+      <TEST INDEX="79" NAME="Background tasks cancelation handler" DESCRIPTION="App should implement event handler to handle background task cancelation request." EXECUTIONTIME="00h:00m:20s.67ms" OPTIONAL="FALSE">
         <MESSAGES />
         <RESULT><![CDATA[PASS]]></RESULT>
       </TEST>
-      <TEST INDEX="81" NAME="Platform version launch" DESCRIPTION="App should not mis-use OSVersionInfo API to provide users functionality that is specific to the OS." EXECUTIONTIME="00h:01m:02s.15ms" OPTIONAL="FALSE">
+      <TEST INDEX="81" NAME="Platform version launch" DESCRIPTION="App should not mis-use OSVersionInfo API to provide users functionality that is specific to the OS." EXECUTIONTIME="00h:00m:20s.02ms" OPTIONAL="FALSE">
         <MESSAGES />
         <RESULT><![CDATA[PASS]]></RESULT>
       </TEST>
-      <TEST INDEX="47" NAME="App launch" DESCRIPTION="App launch tests." EXECUTIONTIME="00h:00m:53s.76ms" OPTIONAL="FALSE">
+      <TEST INDEX="47" NAME="App launch" DESCRIPTION="App launch tests." EXECUTIONTIME="00h:00m:17s.51ms" OPTIONAL="FALSE">
         <MESSAGES />
         <RESULT><![CDATA[PASS]]></RESULT>
       </TEST>
-      <TEST INDEX="21" NAME="Crashes and hangs" DESCRIPTION="Do not crash or hang during the testing process." EXECUTIONTIME="00h:00m:08s.24ms" OPTIONAL="FALSE">
+      <TEST INDEX="21" NAME="Crashes and hangs" DESCRIPTION="Do not crash or hang during the testing process." EXECUTIONTIME="00h:00m:02s.65ms" OPTIONAL="FALSE">
         <MESSAGES />
         <RESULT><![CDATA[PASS]]></RESULT>
       </TEST>
     </REQUIREMENT>
     <REQUIREMENT NUMBER="12" TITLE="Package compliance test" RATIONALE="The package manifest was missing one or more required attributes.">
-      <TEST INDEX="77" NAME="Application count" DESCRIPTION="One package should not define more than one app in the manifest." EXECUTIONTIME="00h:00m:03s.06ms" OPTIONAL="FALSE">
+      <TEST INDEX="77" NAME="Application count" DESCRIPTION="One package should not define more than one app in the manifest." EXECUTIONTIME="00h:00m:01s.02ms" OPTIONAL="FALSE">
         <MESSAGES />
         <RESULT><![CDATA[PASS]]></RESULT>
       </TEST>
-      <TEST INDEX="31" NAME="App manifest" DESCRIPTION="App manifest must include valid entries for all required fields." EXECUTIONTIME="00h:00m:06s.12ms" OPTIONAL="FALSE">
+      <TEST INDEX="31" NAME="App manifest" DESCRIPTION="App manifest must include valid entries for all required fields." EXECUTIONTIME="00h:00m:02s.01ms" OPTIONAL="FALSE">
         <MESSAGES />
         <RESULT><![CDATA[PASS]]></RESULT>
       </TEST>
-      <TEST INDEX="74" NAME="Bundle manifest" DESCRIPTION="Bundle manifest must include valid entries for all required fields." EXECUTIONTIME="00h:00m:04s.68ms" OPTIONAL="FALSE">
+      <TEST INDEX="74" NAME="Bundle manifest" DESCRIPTION="Bundle manifest must include valid entries for all required fields." EXECUTIONTIME="00h:00m:01s.36ms" OPTIONAL="FALSE">
         <MESSAGES />
         <RESULT><![CDATA[PASS]]></RESULT>
       </TEST>
-      <TEST INDEX="75" NAME="Package size" DESCRIPTION="Package file size should not be greater than 4 gigabytes." EXECUTIONTIME="00h:00m:04s.67ms" OPTIONAL="FALSE">
+      <TEST INDEX="75" NAME="Package size" DESCRIPTION="Package file size should not be greater than 4 gigabytes." EXECUTIONTIME="00h:00m:01s.53ms" OPTIONAL="FALSE">
         <MESSAGES />
         <RESULT><![CDATA[PASS]]></RESULT>
       </TEST>
-      <TEST INDEX="83" NAME="Restricted namespace" DESCRIPTION="Check if any restricted namespace is referenced in the appx manifest." EXECUTIONTIME="00h:00m:03s.08ms" OPTIONAL="FALSE">
+      <TEST INDEX="83" NAME="Restricted namespace" DESCRIPTION="Check if any restricted namespace is referenced in the appx manifest." EXECUTIONTIME="00h:00m:00s.97ms" OPTIONAL="FALSE">
         <MESSAGES />
         <RESULT><![CDATA[PASS]]></RESULT>
       </TEST>
     </REQUIREMENT>
     <REQUIREMENT NUMBER="14" TITLE="Windows security features test" RATIONALE="Applications must opt-into Windows security features.">
-      <TEST INDEX="33" NAME="Binary analyzer" DESCRIPTION="Analysis of security features enabled on binaries" EXECUTIONTIME="00h:00m:05s.42ms" OPTIONAL="FALSE">
+      <TEST INDEX="33" NAME="Binary analyzer" DESCRIPTION="Analysis of security features enabled on binaries" EXECUTIONTIME="00h:00m:01s.56ms" OPTIONAL="FALSE">
         <MESSAGES />
         <RESULT><![CDATA[PASS]]></RESULT>
       </TEST>
-      <TEST INDEX="70" NAME="Banned file analyzer" DESCRIPTION="Analysis of application to detect known insecure files" EXECUTIONTIME="00h:00m:03s.46ms" OPTIONAL="FALSE">
+      <TEST INDEX="70" NAME="Banned file analyzer" DESCRIPTION="Analysis of application to detect known insecure files" EXECUTIONTIME="00h:00m:01s.13ms" OPTIONAL="FALSE">
         <MESSAGES />
         <RESULT><![CDATA[PASS]]></RESULT>
       </TEST>
-      <TEST INDEX="62" NAME="Private code signing" DESCRIPTION="App should not package private code signing key files." EXECUTIONTIME="00h:00m:04s.00ms" OPTIONAL="FALSE">
+      <TEST INDEX="62" NAME="Private code signing" DESCRIPTION="App should not package private code signing key files." EXECUTIONTIME="00h:00m:01s.27ms" OPTIONAL="FALSE">
         <MESSAGES />
         <RESULT><![CDATA[PASS]]></RESULT>
       </TEST>
     </REQUIREMENT>
     <REQUIREMENT NUMBER="15" TITLE="Supported API test" RATIONALE="The application should only refer to the APIs allowed by the Windows SDK for Windows Store Apps.">
-      <TEST INDEX="38" NAME="Supported APIs" DESCRIPTION="Windows Store App must only use supported platform APIs." EXECUTIONTIME="00h:00m:06s.93ms" OPTIONAL="FALSE">
+      <TEST INDEX="38" NAME="Supported APIs" DESCRIPTION="Windows Store App must only use supported platform APIs." EXECUTIONTIME="00h:00m:02s.20ms" OPTIONAL="FALSE">
         <MESSAGES />
         <RESULT><![CDATA[PASS]]></RESULT>
       </TEST>
     </REQUIREMENT>
     <REQUIREMENT NUMBER="19" TITLE="App manifest resources tests" RATIONALE="The App Package Manifest should have valid resources defined in the resources.pri file, as per the App Packaging Specification and App Manifest Schema.">
-      <TEST INDEX="45" NAME="App resources" DESCRIPTION="The package should have valid resources defined in the resources.pri file." EXECUTIONTIME="00h:00m:01s.95ms" OPTIONAL="FALSE">
+      <TEST INDEX="45" NAME="App resources" DESCRIPTION="The package should have valid resources defined in the resources.pri file." EXECUTIONTIME="00h:00m:00s.60ms" OPTIONAL="FALSE">
         <MESSAGES />
         <RESULT><![CDATA[PASS]]></RESULT>
       </TEST>
-      <TEST INDEX="61" NAME="Branding" DESCRIPTION="App should not use the default images packed by windows SDK samples or Visual Studio." EXECUTIONTIME="00h:00m:05s.79ms" OPTIONAL="FALSE">
-        <MESSAGES>
-          <MESSAGE TEXT="Image file StoreLogo.png is a default image." />
-          <MESSAGE TEXT="Image file Square44x44Logo.scale-200.png is a default image." />
-          <MESSAGE TEXT="Image file Square44x44Logo.targetsize-24_altform-unplated.png is a default image." />
-          <MESSAGE TEXT="Image file Square150x150Logo.scale-200.png is a default image." />
-          <MESSAGE TEXT="Image file Wide310x150Logo.scale-200.png is a default image." />
-          <MESSAGE TEXT="Image file SplashScreen.scale-200.png is a default image." />
-        </MESSAGES>
-        <RESULT><![CDATA[FAIL]]></RESULT>
+      <TEST INDEX="61" NAME="Branding" DESCRIPTION="App should not use the default images packed by windows SDK samples or Visual Studio." EXECUTIONTIME="00h:00m:01s.62ms" OPTIONAL="FALSE">
+        <MESSAGES />
+        <RESULT><![CDATA[PASS]]></RESULT>
       </TEST>
     </REQUIREMENT>
     <REQUIREMENT NUMBER="20" TITLE="Debug configuration test" RATIONALE="The App should not install any debug binaries.">
-      <TEST INDEX="46" NAME="Debug configuration" DESCRIPTION="The App should not install any debug binaries." EXECUTIONTIME="00h:00m:04s.69ms" OPTIONAL="FALSE">
+      <TEST INDEX="46" NAME="Debug configuration" DESCRIPTION="The App should not install any debug binaries." EXECUTIONTIME="00h:00m:01s.55ms" OPTIONAL="FALSE">
         <MESSAGES />
         <RESULT><![CDATA[PASS]]></RESULT>
       </TEST>
     </REQUIREMENT>
     <REQUIREMENT NUMBER="21" TITLE="File encoding test" RATIONALE="Packages containing an HTML5 Windows Store app must have correct file encoding.">
-      <TEST INDEX="49" NAME="UTF-8 file encoding" DESCRIPTION="Packages containing an HTML5 Windows Store app must have correct file encoding." EXECUTIONTIME="00h:00m:03s.35ms" OPTIONAL="FALSE">
+      <TEST INDEX="49" NAME="UTF-8 file encoding" DESCRIPTION="Packages containing an HTML5 Windows Store app must have correct file encoding." EXECUTIONTIME="00h:00m:01s.11ms" OPTIONAL="FALSE">
         <MESSAGES />
         <RESULT><![CDATA[PASS]]></RESULT>
       </TEST>
     </REQUIREMENT>
     <REQUIREMENT NUMBER="23" TITLE="App Capabilities test" RATIONALE="Packages declaring special-use capabilities will have to provide justifications during the onboarding process.">
-      <TEST INDEX="52" NAME="Special use capabilities" DESCRIPTION="Packages declaring special-use capabilities will have to provide justifications during the onboarding process." EXECUTIONTIME="00h:00m:03s.13ms" OPTIONAL="FALSE">
+      <TEST INDEX="52" NAME="Special use capabilities" DESCRIPTION="Packages declaring special-use capabilities will have to provide justifications during the onboarding process." EXECUTIONTIME="00h:00m:01s.03ms" OPTIONAL="FALSE">
         <MESSAGES />
         <RESULT><![CDATA[PASS]]></RESULT>
       </TEST>
     </REQUIREMENT>
     <REQUIREMENT NUMBER="24" TITLE="Windows Runtime metadata validation" RATIONALE="Metadata needs to be conformant and consistent across all generation sources.">
-      <TEST INDEX="56" NAME="ExclusiveTo attribute" DESCRIPTION="A class must not implement an interface that is marked ExclusiveTo another class." EXECUTIONTIME="00h:00m:25s.17ms" OPTIONAL="FALSE">
+      <TEST INDEX="56" NAME="ExclusiveTo attribute" DESCRIPTION="A class must not implement an interface that is marked ExclusiveTo another class." EXECUTIONTIME="00h:00m:07s.48ms" OPTIONAL="FALSE">
         <MESSAGES />
         <RESULT><![CDATA[PASS]]></RESULT>
       </TEST>
-      <TEST INDEX="57" NAME="Type location" DESCRIPTION="Types must be defined in the metadata file with the longest matching namespace." EXECUTIONTIME="00h:00m:03s.26ms" OPTIONAL="FALSE">
+      <TEST INDEX="57" NAME="Type location" DESCRIPTION="Types must be defined in the metadata file with the longest matching namespace." EXECUTIONTIME="00h:00m:00s.71ms" OPTIONAL="FALSE">
         <MESSAGES />
         <RESULT><![CDATA[PASS]]></RESULT>
       </TEST>
-      <TEST INDEX="55" NAME="Type name case-sensitivity" DESCRIPTION="Namespace and type names must not vary only by casing." EXECUTIONTIME="00h:00m:02s.12ms" OPTIONAL="FALSE">
+      <TEST INDEX="55" NAME="Type name case-sensitivity" DESCRIPTION="Namespace and type names must not vary only by casing." EXECUTIONTIME="00h:00m:00s.70ms" OPTIONAL="FALSE">
         <MESSAGES />
         <RESULT><![CDATA[PASS]]></RESULT>
       </TEST>
-      <TEST INDEX="54" NAME="Type name correctness" DESCRIPTION="Only system types can be in the Windows namespace and no types can be in the global namespace." EXECUTIONTIME="00h:00m:02s.08ms" OPTIONAL="FALSE">
+      <TEST INDEX="54" NAME="Type name correctness" DESCRIPTION="Only system types can be in the Windows namespace and no types can be in the global namespace." EXECUTIONTIME="00h:00m:00s.70ms" OPTIONAL="FALSE">
         <MESSAGES />
         <RESULT><![CDATA[PASS]]></RESULT>
       </TEST>
-      <TEST INDEX="58" NAME="General metadata correctness" DESCRIPTION="Metadata files must meet various requirements in order to be valid and correct." EXECUTIONTIME="00h:00m:21s.10ms" OPTIONAL="FALSE">
+      <TEST INDEX="58" NAME="General metadata correctness" DESCRIPTION="Metadata files must meet various requirements in order to be valid and correct." EXECUTIONTIME="00h:00m:06s.72ms" OPTIONAL="FALSE">
         <MESSAGES />
         <RESULT><![CDATA[PASS]]></RESULT>
       </TEST>
-      <TEST INDEX="53" NAME="Properties" DESCRIPTION="Write-only and indexer properties may not be used. Corresponding getter and setter methods must match in type." EXECUTIONTIME="00h:00m:02s.16ms" OPTIONAL="FALSE">
+      <TEST INDEX="53" NAME="Properties" DESCRIPTION="Write-only and indexer properties may not be used. Corresponding getter and setter methods must match in type." EXECUTIONTIME="00h:00m:00s.67ms" OPTIONAL="FALSE">
         <MESSAGES />
         <RESULT><![CDATA[PASS]]></RESULT>
       </TEST>
     </REQUIREMENT>
     <REQUIREMENT NUMBER="25" TITLE="Package sanity test" RATIONALE="Validation of the app package contents to ensure correctness.">
-      <TEST INDEX="63" NAME="Platform appropriate files" DESCRIPTION="App should not install files that do not match the target processor architecture." EXECUTIONTIME="00h:00m:03s.74ms" OPTIONAL="FALSE">
+      <TEST INDEX="63" NAME="Platform appropriate files" DESCRIPTION="App should not install files that do not match the target processor architecture." EXECUTIONTIME="00h:00m:01s.18ms" OPTIONAL="FALSE">
         <MESSAGES />
         <RESULT><![CDATA[PASS]]></RESULT>
       </TEST>
-      <TEST INDEX="66" NAME="Supported directory structure check" DESCRIPTION="Validate each file in the package for that the file name length should be less than MAX_PATH." EXECUTIONTIME="00h:00m:02s.77ms" OPTIONAL="FALSE">
+      <TEST INDEX="66" NAME="Supported directory structure check" DESCRIPTION="Validate each file in the package for that the file name length should be less than MAX_PATH." EXECUTIONTIME="00h:00m:00s.92ms" OPTIONAL="FALSE">
         <MESSAGES />
         <RESULT><![CDATA[PASS]]></RESULT>
       </TEST>
     </REQUIREMENT>
     <REQUIREMENT NUMBER="27" TITLE="Resource Usage Test" RATIONALE="WinJS background tasks need to call close() to free resource.">
-      <TEST INDEX="68" NAME="WinJS background task" DESCRIPTION="WinJS background tasks need to call close() to free resource." EXECUTIONTIME="00h:00m:05s.72ms" OPTIONAL="FALSE">
+      <TEST INDEX="68" NAME="WinJS background task" DESCRIPTION="WinJS background tasks need to call close() to free resource." EXECUTIONTIME="00h:00m:01s.69ms" OPTIONAL="FALSE">
         <MESSAGES />
         <RESULT><![CDATA[PASS]]></RESULT>
       </TEST>
@@ -146,12 +139,12 @@
   </REQUIREMENTS>
   <APPLICATIONS>
     <Installed_Programs>
-      <Program Name="49917CathalRyan96.GAAScoreCounter" Type="Application" Source="AppxPackage" Publisher="CN=A2FF33BD-8FE2-4736-B5B2-22DA23FB2513" Version="1.1.0.0" Language="6153" InstallDate="" OSVersionAtInstallTime="10.0.0.16299" RootDirPath="C:\Program Files\windowsapps\49917cathalryan96.gaascorecounter_1.1.0.0_x64__eyxkk7he2hzxa" Id="00009f0016239e8bad45a13dbb260dcbc47100000918" HiddenArp="false">
+      <Program Name="49917CathalRyan96.GAAScoreCounter" Type="Application" Source="AppxPackage" Publisher="CN=A2FF33BD-8FE2-4736-B5B2-22DA23FB2513" Version="1.1.1.0" Language="6153" InstallDate="" OSVersionAtInstallTime="10.0.0.16299" RootDirPath="C:\Program Files\windowsapps\49917cathalryan96.gaascorecounter_1.1.1.0_x64__eyxkk7he2hzxa" Id="000027636cc12ec6f24327dbd11b855aa88200000918" HiddenArp="false">
         <Indicators>
           <WindowsStoreAppManifestIndicators>
-            <PackageManifest PackageFullName="49917CathalRyan96.GAAScoreCounter_1.1.0.0_x64__eyxkk7he2hzxa">
+            <PackageManifest PackageFullName="49917CathalRyan96.GAAScoreCounter_1.1.1.0_x64__eyxkk7he2hzxa">
               <Package>
-                <Identity Name="49917CathalRyan96.GAAScoreCounter" Publisher="CN=A2FF33BD-8FE2-4736-B5B2-22DA23FB2513" Version="1.1.0.0" ProcessorArchitecture="x64" />
+                <Identity Name="49917CathalRyan96.GAAScoreCounter" Publisher="CN=A2FF33BD-8FE2-4736-B5B2-22DA23FB2513" Version="1.1.1.0" ProcessorArchitecture="x64" />
                 <PhoneIdentity PhoneProductId="efd3ce5f-48c9-4775-a3b6-2131e9ea7052" PhonePublisherId="00000000-0000-0000-0000-000000000000" />
                 <Properties>
                   <DisplayName>GAA Score Counter</DisplayName>
@@ -183,21 +176,21 @@
             </PackageManifest>
             <BundleManifest PackageFamilyName="49917CathalRyan96.GAAScoreCounter_eyxkk7he2hzxa">
               <Bundle SchemaVersion="3.0">
-                <Identity Name="49917CathalRyan96.GAAScoreCounter" Publisher="CN=A2FF33BD-8FE2-4736-B5B2-22DA23FB2513" Version="1.1.0.0" />
+                <Identity Name="49917CathalRyan96.GAAScoreCounter" Publisher="CN=A2FF33BD-8FE2-4736-B5B2-22DA23FB2513" Version="1.1.1.0" />
                 <Packages>
-                  <Package Type="application" Version="1.1.0.0" Architecture="x86" FileName="MobileApp_1.1.0.0_x86.appx" Offset="5460181" Size="2709548">
+                  <Package Type="application" Version="1.1.1.0" Architecture="x86" FileName="MobileApp_1.1.1.0_x86.appx" Offset="5502904" Size="2730918">
                     <Resources>
                       <Resource Language="EN-US" />
                       <Resource Scale="200" />
                     </Resources>
                   </Package>
-                  <Package Type="application" Version="1.1.0.0" Architecture="x64" FileName="MobileApp_1.1.0.0_x64.appx" Offset="2726171" Size="2733930">
+                  <Package Type="application" Version="1.1.1.0" Architecture="x64" FileName="MobileApp_1.1.1.0_x64.appx" Offset="2747530" Size="2755294">
                     <Resources>
                       <Resource Language="EN-US" />
                       <Resource Scale="200" />
                     </Resources>
                   </Package>
-                  <Package Type="application" Version="1.1.0.0" Architecture="arm" FileName="MobileApp_1.1.0.0_ARM.appx" Offset="56" Size="2726035">
+                  <Package Type="application" Version="1.1.1.0" Architecture="arm" FileName="MobileApp_1.1.1.0_ARM.appx" Offset="56" Size="2747394">
                     <Resources>
                       <Resource Language="EN-US" />
                       <Resource Scale="200" />
@@ -210,19 +203,19 @@
         </Indicators>
         <StaticProperties>
           <Files Id="0000da39a3ee5e6b4b0d3255bfef95601890afd80709">
-            <File Id="0000d3a784a0b601ab8905ec06f7c8f1e00f131425c2" Name="clrcompression.dll" ProductName="microsoft® .net framework" CompanyName="microsoft corporation" ProductVersion="1.0.24214.00 built by: projectkrel" VerLanguage="1033" SwitchBackContext="0" FileVersion="1.0.24214.00 built by: projectkrel" Size="69632" SizeOfImage="69632" PeHeaderHash="01017c90ae133bd09e28a4d27f7f6b651b82da84e020" PeChecksum="104676" CrcChecksum="-369591944" BinProductVersion="1.0.24214.00 built by: projectkrel" BinFileVersion="1.0.24214.0" FileDescription="clrcompression" LegalCopyright="© microsoft corporation.  all rights reserved." LinkDate="06/14/2016 03:31:30" BinaryType="pe64_amd64" LowerCaseLongPath="C:\Program Files\windowsapps\49917cathalryan96.gaascorecounter_1.1.0.0_x64__eyxkk7he2hzxa\clrcompression.dll" />
-            <File Id="000070b8451d54e5630589a2e4dffec7eb685cbc18bf" Name="MobileApp.dll" ProductName="mobileapp" CompanyName="" ProductVersion="1.0.0.0" VerLanguage="0" SwitchBackContext="0" FileVersion="1.0.0.0" Size="794624" SizeOfImage="794624" PeHeaderHash="01017520155c0af2b865f9aeedb1b8ac1e5220fb6f8e" PeChecksum="0" CrcChecksum="1521146857" BinProductVersion="1.0.0.0" BinFileVersion="1.0.0.0" FileDescription="mobileapp" LegalCopyright="copyright ©  2018" LinkDate="04/12/2018 14:46:15" BinaryType="pe64_amd64" LowerCaseLongPath="C:\Program Files\windowsapps\49917cathalryan96.gaascorecounter_1.1.0.0_x64__eyxkk7he2hzxa\mobileapp.dll" />
-            <File Id="0000285fb7acf81ea020b21df444dfbf92160981a009" Name="MobileApp.exe" ProductName="mobileapp" CompanyName="" ProductVersion="1.0.0.0" VerLanguage="0" SwitchBackContext="0" FileVersion="1.0.0.0" Size="28672" SizeOfImage="28672" PeHeaderHash="0101468a6979a7fe31ebe84d065f63cf197b90ac2d47" PeChecksum="0" CrcChecksum="2059562681" BinProductVersion="1.0.0.0" BinFileVersion="1.0.0.0" FileDescription="mobileapp" LegalCopyright="copyright ©  2018" LinkDate="04/12/2018 14:46:15" BinaryType="pe64_amd64" LowerCaseLongPath="C:\Program Files\windowsapps\49917cathalryan96.gaascorecounter_1.1.0.0_x64__eyxkk7he2hzxa\mobileapp.exe" />
-            <File Id="0000e88b399e54ba44b5d71004b49296714ab89c5fb2" Name="resources.pri" ProductName="" CompanyName="" ProductVersion="" VerLanguage="0" SwitchBackContext="0" FileVersion="" Size="0" SizeOfImage="0" PeHeaderHash="" PeChecksum="0" CrcChecksum="-1553058482" BinProductVersion="" BinFileVersion="" FileDescription="" LegalCopyright="" LinkDate="" BinaryType="data_only" LowerCaseLongPath="C:\Program Files\windowsapps\49917cathalryan96.gaascorecounter_1.1.0.0_x64__eyxkk7he2hzxa\resources.pri" />
+            <File Id="0000d3a784a0b601ab8905ec06f7c8f1e00f131425c2" Name="clrcompression.dll" ProductName="microsoft® .net framework" CompanyName="microsoft corporation" ProductVersion="1.0.24214.00 built by: projectkrel" VerLanguage="1033" SwitchBackContext="0" FileVersion="1.0.24214.00 built by: projectkrel" Size="69632" SizeOfImage="69632" PeHeaderHash="01017c90ae133bd09e28a4d27f7f6b651b82da84e020" PeChecksum="104676" CrcChecksum="-369591944" BinProductVersion="1.0.24214.00 built by: projectkrel" BinFileVersion="1.0.24214.0" FileDescription="clrcompression" LegalCopyright="© microsoft corporation.  all rights reserved." LinkDate="06/14/2016 03:31:30" BinaryType="pe64_amd64" LowerCaseLongPath="C:\Program Files\windowsapps\49917cathalryan96.gaascorecounter_1.1.1.0_x64__eyxkk7he2hzxa\clrcompression.dll" />
+            <File Id="0000b70efc3039cb199bdfd5dcf45ba6f79f35df7622" Name="MobileApp.dll" ProductName="mobileapp" CompanyName="" ProductVersion="1.0.0.0" VerLanguage="0" SwitchBackContext="0" FileVersion="1.0.0.0" Size="794624" SizeOfImage="794624" PeHeaderHash="0101668bd5f4765022fb4a27bd8703be13e72e864426" PeChecksum="0" CrcChecksum="1983124176" BinProductVersion="1.0.0.0" BinFileVersion="1.0.0.0" FileDescription="mobileapp" LegalCopyright="copyright ©  2018" LinkDate="04/13/2018 11:21:08" BinaryType="pe64_amd64" LowerCaseLongPath="C:\Program Files\windowsapps\49917cathalryan96.gaascorecounter_1.1.1.0_x64__eyxkk7he2hzxa\mobileapp.dll" />
+            <File Id="0000a11b7e6dc7fdc98467086b08b115b4402d515164" Name="MobileApp.exe" ProductName="mobileapp" CompanyName="" ProductVersion="1.0.0.0" VerLanguage="0" SwitchBackContext="0" FileVersion="1.0.0.0" Size="28672" SizeOfImage="28672" PeHeaderHash="0101622a3ee0df3174cdc855fb735505fb875713413a" PeChecksum="0" CrcChecksum="1193565796" BinProductVersion="1.0.0.0" BinFileVersion="1.0.0.0" FileDescription="mobileapp" LegalCopyright="copyright ©  2018" LinkDate="04/13/2018 11:21:08" BinaryType="pe64_amd64" LowerCaseLongPath="C:\Program Files\windowsapps\49917cathalryan96.gaascorecounter_1.1.1.0_x64__eyxkk7he2hzxa\mobileapp.exe" />
+            <File Id="0000e88b399e54ba44b5d71004b49296714ab89c5fb2" Name="resources.pri" ProductName="" CompanyName="" ProductVersion="" VerLanguage="0" SwitchBackContext="0" FileVersion="" Size="0" SizeOfImage="0" PeHeaderHash="" PeChecksum="0" CrcChecksum="-1553058482" BinProductVersion="" BinFileVersion="" FileDescription="" LegalCopyright="" LinkDate="" BinaryType="data_only" LowerCaseLongPath="C:\Program Files\windowsapps\49917cathalryan96.gaascorecounter_1.1.1.0_x64__eyxkk7he2hzxa\resources.pri" />
           </Files>
         </StaticProperties>
       </Program>
     </Installed_Programs>
   </APPLICATIONS>
   <DEPENDENCY_INFORMATION>
-    <AitStaticAnalysis ProgramId="00009f0016239e8bad45a13dbb260dcbc47100000904" AnalysisVersion="1.60" DictionaryVersion="3.2" Type="Package" Id="49917CathalRyan96.GAAScoreCounter_1.1.0.0_x64__eyxkk7he2hzxa">
-      <AitFile ErrorCode="0" Name="MobileApp.exe" Id="0000285fb7acf81ea020b21df444dfbf92160981a009" />
-      <AitFile ErrorCode="0" Name="MobileApp.dll" Id="000070b8451d54e5630589a2e4dffec7eb685cbc18bf">
+    <AitStaticAnalysis ProgramId="000027636cc12ec6f24327dbd11b855aa88200000904" AnalysisVersion="1.60" DictionaryVersion="3.2" Type="Package" Id="49917CathalRyan96.GAAScoreCounter_1.1.1.0_x64__eyxkk7he2hzxa">
+      <AitFile ErrorCode="0" Name="MobileApp.exe" Id="0000a11b7e6dc7fdc98467086b08b115b4402d515164" />
+      <AitFile ErrorCode="0" Name="MobileApp.dll" Id="0000b70efc3039cb199bdfd5dcf45ba6f79f35df7622">
         <AitCategory Id="Com">
           <AitFeature Name="{00000003-0000-0000-c000-000000000046}" />
           <AitFeature Name="{00020401-0000-0000-c000-000000000046}" />
