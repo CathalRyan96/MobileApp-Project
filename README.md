@@ -34,6 +34,10 @@ the design.
 
 This application was developed  using visual studio 2017 community and was written in C# and XAML.
 
+## C Sharp
+
+C# is an elegant and type-safe object-oriented language that enables developers to build a variety of secure and robust applications that run on the .NET Framework. You can use C# to create Windows client applications, XML Web services, distributed components, client-server applications, database applications, and much, much more. Visual C# provides an advanced code editor, convenient user interface designers, integrated debugger, and many other tools to make it easier to develop applications based on the C# language and the .NET Framework.
+
 ## Windows Store
 
 This app is currently going through the certification stages of being published to the store.
