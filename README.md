@@ -45,6 +45,8 @@ It has passed the Windows App Certification Kit Test.
 I have a folder on this repository(certification-progress) containing screenshots of the apps progress on being published to the store.
 I will update this section of the README when the app has been accepted to the store
 
+![appcertificationtestresults](https://user-images.githubusercontent.com/16310972/38769313-b9a888ca-3ff8-11e8-93e4-eb2746bff882.png)
+
 ## Author
 
 Cathal Ryan - G00325624
