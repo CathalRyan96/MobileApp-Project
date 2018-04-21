@@ -40,10 +40,8 @@ C# is an elegant and type-safe object-oriented language that enables developers 
 
 ## Windows Store
 
-This app is currently going through the certification stages of being published to the store.
-It has passed the Windows App Certification Kit Test.
-I have a folder on this repository(certification-progress) containing screenshots of the apps progress on being published to the store.
-I will update this section of the README when the app has been accepted to the store
+The app is now availible on the store and can be found at this link:
+https://www.microsoft.com/en-ie/store/p/gaa-score-counter/9nztnnb9k49d?activetab=pivot%3aoverviewtab
 
 ![appcertificationtestresults](https://user-images.githubusercontent.com/16310972/38769313-b9a888ca-3ff8-11e8-93e4-eb2746bff882.png)
 
